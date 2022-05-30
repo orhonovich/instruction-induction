@@ -1,0 +1,1082 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "I wondered who Medea had poisoned.",
+      "output": "medea",
+      "sentence": "I wondered who Medea had poisoned.",
+      "length": 5,
+      "words": [
+        "Medea"
+      ],
+      "source": "dev_in_domain"
+    },
+    "2": {
+      "input": "That is the reason why he resigned.",
+      "output": "the why",
+      "sentence": "That is the reason why he resigned.",
+      "length": 3,
+      "words": [
+        "the",
+        "why"
+      ],
+      "source": "dev_in_domain"
+    },
+    "3": {
+      "input": "Mike talked about politics yesterday to my friends.",
+      "output": "about",
+      "sentence": "Mike talked about politics yesterday to my friends.",
+      "length": 5,
+      "words": [
+        "about"
+      ],
+      "source": "dev_in_domain"
+    },
+    "4": {
+      "input": "The mechanical doll wriggled itself loose.",
+      "output": "loose",
+      "sentence": "The mechanical doll wriggled itself loose.",
+      "length": 5,
+      "words": [
+        "loose"
+      ],
+      "source": "dev_in_domain"
+    },
+    "5": {
+      "input": "He let the cats which were whining out.",
+      "output": "let the out",
+      "sentence": "He let the cats which were whining out.",
+      "length": 3,
+      "words": [
+        "let",
+        "the",
+        "out"
+      ],
+      "source": "dev_in_domain"
+    },
+    "6": {
+      "input": "The Dodgers beat the Red Sox and were beaten by the Giants.",
+      "output": "beat were",
+      "sentence": "The Dodgers beat the Red Sox and were beaten by the Giants.",
+      "length": 4,
+      "words": [
+        "beat",
+        "were"
+      ],
+      "source": "dev_in_domain"
+    },
+    "7": {
+      "input": "John has not kissed Mary.",
+      "output": "kissed",
+      "sentence": "John has not kissed Mary.",
+      "length": 6,
+      "words": [
+        "kissed"
+      ],
+      "source": "dev_in_domain"
+    },
+    "8": {
+      "input": "I will fix the computer for Carol.",
+      "output": "will",
+      "sentence": "I will fix the computer for Carol.",
+      "length": 4,
+      "words": [
+        "will"
+      ],
+      "source": "dev_in_domain"
+    },
+    "9": {
+      "input": "John finished the cake and drank the lemonade.",
+      "output": "john cake",
+      "sentence": "John finished the cake and drank the lemonade.",
+      "length": 4,
+      "words": [
+        "John",
+        "cake"
+      ],
+      "source": "dev_in_domain"
+    },
+    "10": {
+      "input": "John often meets Mary.",
+      "output": "often meets",
+      "sentence": "John often meets Mary.",
+      "length": 5,
+      "words": [
+        "often",
+        "meets"
+      ],
+      "source": "dev_in_domain"
+    },
+    "11": {
+      "input": "He attributed to a short circuit which was caused by an overloaded transducer the fire which destroyed most of my factory.",
+      "output": "fire most",
+      "sentence": "He attributed to a short circuit which was caused by an overloaded transducer the fire which destroyed most of my factory.",
+      "length": 4,
+      "words": [
+        "fire",
+        "most"
+      ],
+      "source": "dev_in_domain"
+    },
+    "12": {
+      "input": "That banana is eating the monkey.",
+      "output": "the",
+      "sentence": "That banana is eating the monkey.",
+      "length": 3,
+      "words": [
+        "the"
+      ],
+      "source": "dev_in_domain"
+    },
+    "13": {
+      "input": "The chickens seem fond of the farmer.",
+      "output": "farmer",
+      "sentence": "The chickens seem fond of the farmer.",
+      "length": 6,
+      "words": [
+        "farmer"
+      ],
+      "source": "dev_in_domain"
+    },
+    "14": {
+      "input": "Brown presented a plaque to Jones.",
+      "output": "plaque",
+      "sentence": "Brown presented a plaque to Jones.",
+      "length": 6,
+      "words": [
+        "plaque"
+      ],
+      "source": "dev_in_domain"
+    },
+    "15": {
+      "input": "The more Fred is obnoxious, the less attention you should pay to him.",
+      "output": "more fred less",
+      "sentence": "The more Fred is obnoxious, the less attention you should pay to him.",
+      "length": 4,
+      "words": [
+        "more",
+        "Fred",
+        "less"
+      ],
+      "source": "dev_in_domain"
+    },
+    "16": {
+      "input": "You will believe Bob.",
+      "output": "you bob",
+      "sentence": "You will believe Bob.",
+      "length": 3,
+      "words": [
+        "You",
+        "Bob"
+      ],
+      "source": "dev_in_domain"
+    },
+    "17": {
+      "input": "The higher the stakes, the lower his expectations are.",
+      "output": "higher stakes",
+      "sentence": "The higher the stakes, the lower his expectations are.",
+      "length": 6,
+      "words": [
+        "higher",
+        "stakes"
+      ],
+      "source": "dev_in_domain"
+    },
+    "18": {
+      "input": "John placed Kim behind the garage.",
+      "output": "john",
+      "sentence": "John placed Kim behind the garage.",
+      "length": 4,
+      "words": [
+        "John"
+      ],
+      "source": "dev_in_domain"
+    },
+    "19": {
+      "input": "I am both expecting to get the job and of the opinion that it is a desirable one.",
+      "output": "both that",
+      "sentence": "I am both expecting to get the job and of the opinion that it is a desirable one.",
+      "length": 4,
+      "words": [
+        "both",
+        "that"
+      ],
+      "source": "dev_in_domain"
+    },
+    "20": {
+      "input": "The idea dismayed the Prime Minister that the Dome was dull.",
+      "output": "idea that dome dull",
+      "sentence": "The idea dismayed the Prime Minister that the Dome was dull.",
+      "length": 4,
+      "words": [
+        "idea",
+        "that",
+        "Dome",
+        "dull"
+      ],
+      "source": "dev_in_domain"
+    },
+    "21": {
+      "input": "Gwen hit the baseball.",
+      "output": "gwen",
+      "sentence": "Gwen hit the baseball.",
+      "length": 4,
+      "words": [
+        "Gwen"
+      ],
+      "source": "dev_in_domain"
+    },
+    "22": {
+      "input": "Fanny regretted having to talk to Aunt Norris.",
+      "output": "having norris",
+      "sentence": "Fanny regretted having to talk to Aunt Norris.",
+      "length": 6,
+      "words": [
+        "having",
+        "Norris"
+      ],
+      "source": "dev_in_domain"
+    },
+    "23": {
+      "input": "Each author whose contribution is written in any language other than English will provide a summary in English.",
+      "output": "any",
+      "sentence": "Each author whose contribution is written in any language other than English will provide a summary in English.",
+      "length": 3,
+      "words": [
+        "any"
+      ],
+      "source": "dev_in_domain"
+    },
+    "24": {
+      "input": "Nobody who hates to eat anything should work in a delicatessen.",
+      "output": "hates",
+      "sentence": "Nobody who hates to eat anything should work in a delicatessen.",
+      "length": 5,
+      "words": [
+        "hates"
+      ],
+      "source": "dev_in_domain"
+    },
+    "25": {
+      "input": "He let the cats which were whining out.",
+      "output": "cats were",
+      "sentence": "He let the cats which were whining out.",
+      "length": 4,
+      "words": [
+        "cats",
+        "were"
+      ],
+      "source": "dev_in_domain"
+    },
+    "26": {
+      "input": "Janet broke the cup.",
+      "output": "the cup",
+      "sentence": "Janet broke the cup.",
+      "length": 3,
+      "words": [
+        "the",
+        "cup"
+      ],
+      "source": "dev_in_domain"
+    },
+    "27": {
+      "input": "John convinced Bill that Mary should sleep.",
+      "output": "sleep",
+      "sentence": "John convinced Bill that Mary should sleep.",
+      "length": 5,
+      "words": [
+        "sleep"
+      ],
+      "source": "dev_in_domain"
+    },
+    "28": {
+      "input": "Who is she trying to make up to now?",
+      "output": "trying",
+      "sentence": "Who is she trying to make up to now?",
+      "length": 6,
+      "words": [
+        "trying"
+      ],
+      "source": "dev_in_domain"
+    },
+    "29": {
+      "input": "The angrier Mary got, the more she looked at pictures.",
+      "output": "looked",
+      "sentence": "The angrier Mary got, the more she looked at pictures.",
+      "length": 6,
+      "words": [
+        "looked"
+      ],
+      "source": "dev_in_domain"
+    },
+    "30": {
+      "input": "I know you eat asparagus.",
+      "output": "you eat",
+      "sentence": "I know you eat asparagus.",
+      "length": 3,
+      "words": [
+        "you",
+        "eat"
+      ],
+      "source": "dev_in_domain"
+    },
+    "31": {
+      "input": "It was a brand new car that he bought.",
+      "output": "brand",
+      "sentence": "It was a brand new car that he bought.",
+      "length": 5,
+      "words": [
+        "brand"
+      ],
+      "source": "dev_in_domain"
+    },
+    "32": {
+      "input": "Linda taped the picture to the wall.",
+      "output": "wall",
+      "sentence": "Linda taped the picture to the wall.",
+      "length": 4,
+      "words": [
+        "wall"
+      ],
+      "source": "dev_in_domain"
+    },
+    "33": {
+      "input": "Clearly, John probably will immediately learn French perfectly.",
+      "output": "learn",
+      "sentence": "Clearly, John probably will immediately learn French perfectly.",
+      "length": 5,
+      "words": [
+        "learn"
+      ],
+      "source": "dev_in_domain"
+    },
+    "34": {
+      "input": "What John promised is to be gentle.",
+      "output": "gentle",
+      "sentence": "What John promised is to be gentle.",
+      "length": 6,
+      "words": [
+        "gentle"
+      ],
+      "source": "dev_in_domain"
+    },
+    "35": {
+      "input": "Jean is reluctant to dance.",
+      "output": "jean",
+      "sentence": "Jean is reluctant to dance.",
+      "length": 4,
+      "words": [
+        "Jean"
+      ],
+      "source": "dev_in_domain"
+    },
+    "36": {
+      "input": "Each author whose contribution is written in any language other than English will provide a summary in English.",
+      "output": "author",
+      "sentence": "Each author whose contribution is written in any language other than English will provide a summary in English.",
+      "length": 6,
+      "words": [
+        "author"
+      ],
+      "source": "dev_in_domain"
+    },
+    "37": {
+      "input": "The men will all leave.",
+      "output": "leave",
+      "sentence": "The men will all leave.",
+      "length": 5,
+      "words": [
+        "leave"
+      ],
+      "source": "dev_in_domain"
+    },
+    "38": {
+      "input": "I like the book which you gave me.",
+      "output": "the you",
+      "sentence": "I like the book which you gave me.",
+      "length": 3,
+      "words": [
+        "the",
+        "you"
+      ],
+      "source": "dev_in_domain"
+    },
+    "39": {
+      "input": "Smith loaned a valuable collection of manuscripts to the library.",
+      "output": "loaned",
+      "sentence": "Smith loaned a valuable collection of manuscripts to the library.",
+      "length": 6,
+      "words": [
+        "loaned"
+      ],
+      "source": "dev_in_domain"
+    },
+    "40": {
+      "input": "Mary has always preferred lemons to limes.",
+      "output": "always lemons",
+      "sentence": "Mary has always preferred lemons to limes.",
+      "length": 6,
+      "words": [
+        "always",
+        "lemons"
+      ],
+      "source": "dev_in_domain"
+    },
+    "41": {
+      "input": "He danced.",
+      "output": "danced",
+      "sentence": "He danced.",
+      "length": 6,
+      "words": [
+        "danced"
+      ],
+      "source": "dev_in_domain"
+    },
+    "42": {
+      "input": "Any pilot on duty today could be flying this plane.",
+      "output": "any",
+      "sentence": "Any pilot on duty today could be flying this plane.",
+      "length": 3,
+      "words": [
+        "Any"
+      ],
+      "source": "dev_in_domain"
+    },
+    "43": {
+      "input": "John is eager.",
+      "output": "eager",
+      "sentence": "John is eager.",
+      "length": 5,
+      "words": [
+        "eager"
+      ],
+      "source": "dev_in_domain"
+    },
+    "44": {
+      "input": "Ellen warned Helen against skating on thin ice.",
+      "output": "ice",
+      "sentence": "Ellen warned Helen against skating on thin ice.",
+      "length": 3,
+      "words": [
+        "ice"
+      ],
+      "source": "dev_in_domain"
+    },
+    "45": {
+      "input": "Who has Peter talked with?",
+      "output": "peter",
+      "sentence": "Who has Peter talked with?",
+      "length": 5,
+      "words": [
+        "Peter"
+      ],
+      "source": "dev_in_domain"
+    },
+    "46": {
+      "input": "We persuaded Mary to leave and Sue to stay.",
+      "output": "leave",
+      "sentence": "We persuaded Mary to leave and Sue to stay.",
+      "length": 5,
+      "words": [
+        "leave"
+      ],
+      "source": "dev_in_domain"
+    },
+    "47": {
+      "input": "Frank Churchill crossed the street.",
+      "output": "street",
+      "sentence": "Frank Churchill crossed the street.",
+      "length": 6,
+      "words": [
+        "street"
+      ],
+      "source": "dev_in_domain"
+    },
+    "48": {
+      "input": "We recommend to eat less cake and pastry.",
+      "output": "eat and",
+      "sentence": "We recommend to eat less cake and pastry.",
+      "length": 3,
+      "words": [
+        "eat",
+        "and"
+      ],
+      "source": "dev_in_domain"
+    },
+    "49": {
+      "input": "Dave, Dan, Erin, Jaime, and Alina left.",
+      "output": "dave erin left",
+      "sentence": "Dave, Dan, Erin, Jaime, and Alina left.",
+      "length": 4,
+      "words": [
+        "Dave",
+        "Erin",
+        "left"
+      ],
+      "source": "dev_in_domain"
+    },
+    "50": {
+      "input": "Susan whispered at Rachel.",
+      "output": "rachel",
+      "sentence": "Susan whispered at Rachel.",
+      "length": 6,
+      "words": [
+        "Rachel"
+      ],
+      "source": "dev_in_domain"
+    },
+    "51": {
+      "input": "Susan devoted herself to linguistics.",
+      "output": "susan",
+      "sentence": "Susan devoted herself to linguistics.",
+      "length": 5,
+      "words": [
+        "Susan"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "52": {
+      "input": "Vera sent a baby alligator to Max and a leather dinosaur to Phyllis.",
+      "output": "vera sent baby",
+      "sentence": "Vera sent a baby alligator to Max and a leather dinosaur to Phyllis.",
+      "length": 4,
+      "words": [
+        "Vera",
+        "sent",
+        "baby"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "53": {
+      "input": "John said Joan saw someone from her graduating class.",
+      "output": "john said joan from",
+      "sentence": "John said Joan saw someone from her graduating class.",
+      "length": 4,
+      "words": [
+        "John",
+        "said",
+        "Joan",
+        "from"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "54": {
+      "input": "It was believed by the students that they would have an exam.",
+      "output": "would",
+      "sentence": "It was believed by the students that they would have an exam.",
+      "length": 5,
+      "words": [
+        "would"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "55": {
+      "input": "I gave John gold apples.",
+      "output": "gave john gold",
+      "sentence": "I gave John gold apples.",
+      "length": 4,
+      "words": [
+        "gave",
+        "John",
+        "gold"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "56": {
+      "input": "His or her least known work.",
+      "output": "work",
+      "sentence": "His or her least known work.",
+      "length": 4,
+      "words": [
+        "work"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "57": {
+      "input": "I gave a book to Bill to read.",
+      "output": "gave book bill read",
+      "sentence": "I gave a book to Bill to read.",
+      "length": 4,
+      "words": [
+        "gave",
+        "book",
+        "Bill",
+        "read"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "58": {
+      "input": "John talked to Bill about himself.",
+      "output": "john bill",
+      "sentence": "John talked to Bill about himself.",
+      "length": 4,
+      "words": [
+        "John",
+        "Bill"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "59": {
+      "input": "John was believed by Mary to be telling the truth.",
+      "output": "truth",
+      "sentence": "John was believed by Mary to be telling the truth.",
+      "length": 5,
+      "words": [
+        "truth"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "60": {
+      "input": "Tabs were kept on each agent by the other.",
+      "output": "tabs were kept each",
+      "sentence": "Tabs were kept on each agent by the other.",
+      "length": 4,
+      "words": [
+        "Tabs",
+        "were",
+        "kept",
+        "each"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "61": {
+      "input": "The love of my life and mother of my children would never do such a thing.",
+      "output": "mother",
+      "sentence": "The love of my life and mother of my children would never do such a thing.",
+      "length": 6,
+      "words": [
+        "mother"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "62": {
+      "input": "The only people being added to our group who were at Harvard were students.",
+      "output": "being added group",
+      "sentence": "The only people being added to our group who were at Harvard were students.",
+      "length": 5,
+      "words": [
+        "being",
+        "added",
+        "group"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "63": {
+      "input": "Most columnists claim that a senior White House official has been briefing them, but none will reveal which one.",
+      "output": "most that been them none will",
+      "sentence": "Most columnists claim that a senior White House official has been briefing them, but none will reveal which one.",
+      "length": 4,
+      "words": [
+        "Most",
+        "that",
+        "been",
+        "them",
+        "none",
+        "will"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "64": {
+      "input": "Which book did each author recommend?",
+      "output": "book each",
+      "sentence": "Which book did each author recommend?",
+      "length": 4,
+      "words": [
+        "book",
+        "each"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "65": {
+      "input": "Most columnists claim that a senior White House official has been briefing them, but none will reveal which one.",
+      "output": "has but one",
+      "sentence": "Most columnists claim that a senior White House official has been briefing them, but none will reveal which one.",
+      "length": 3,
+      "words": [
+        "has",
+        "but",
+        "one"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "66": {
+      "input": "People with children who use drugs should be locked up.",
+      "output": "with",
+      "sentence": "People with children who use drugs should be locked up.",
+      "length": 4,
+      "words": [
+        "with"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "67": {
+      "input": "John regretted it that Bill had a good time.",
+      "output": "had",
+      "sentence": "John regretted it that Bill had a good time.",
+      "length": 3,
+      "words": [
+        "had"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "68": {
+      "input": "John counted on Bill to get there on time.",
+      "output": "john bill time",
+      "sentence": "John counted on Bill to get there on time.",
+      "length": 4,
+      "words": [
+        "John",
+        "Bill",
+        "time"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "69": {
+      "input": "The boat seen down the river sank.",
+      "output": "river",
+      "sentence": "The boat seen down the river sank.",
+      "length": 5,
+      "words": [
+        "river"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "70": {
+      "input": "I would prefer for John to leave.",
+      "output": "for",
+      "sentence": "I would prefer for John to leave.",
+      "length": 3,
+      "words": [
+        "for"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "71": {
+      "input": "The police sprayed the protesters with water.",
+      "output": "water",
+      "sentence": "The police sprayed the protesters with water.",
+      "length": 5,
+      "words": [
+        "water"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "72": {
+      "input": "I bought three quarts of wine and two of Clorox.",
+      "output": "wine",
+      "sentence": "I bought three quarts of wine and two of Clorox.",
+      "length": 4,
+      "words": [
+        "wine"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "73": {
+      "input": "The magazines were sent by Mary to herself.",
+      "output": "the",
+      "sentence": "The magazines were sent by Mary to herself.",
+      "length": 3,
+      "words": [
+        "The"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "74": {
+      "input": "I wonder in whom to place my trust.",
+      "output": "wonder",
+      "sentence": "I wonder in whom to place my trust.",
+      "length": 6,
+      "words": [
+        "wonder"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "75": {
+      "input": "Jack hates Sue and is loved by Mary.",
+      "output": "hates loved",
+      "sentence": "Jack hates Sue and is loved by Mary.",
+      "length": 5,
+      "words": [
+        "hates",
+        "loved"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "76": {
+      "input": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",
+      "output": "claim white house today which",
+      "sentence": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",
+      "length": 5,
+      "words": [
+        "claim",
+        "White",
+        "House",
+        "today",
+        "which"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "77": {
+      "input": "The cat got bitten.",
+      "output": "the cat got",
+      "sentence": "The cat got bitten.",
+      "length": 3,
+      "words": [
+        "The",
+        "cat",
+        "got"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "78": {
+      "input": "Lou forgot the umbrella.",
+      "output": "forgot",
+      "sentence": "Lou forgot the umbrella.",
+      "length": 6,
+      "words": [
+        "forgot"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "79": {
+      "input": "We think that Leslie likes us.",
+      "output": "think likes",
+      "sentence": "We think that Leslie likes us.",
+      "length": 5,
+      "words": [
+        "think",
+        "likes"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "80": {
+      "input": "Ted was bitten by the spider.",
+      "output": "bitten spider",
+      "sentence": "Ted was bitten by the spider.",
+      "length": 6,
+      "words": [
+        "bitten",
+        "spider"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "81": {
+      "input": "I gave it to Pete to take to the fair.",
+      "output": "gave pete take fair",
+      "sentence": "I gave it to Pete to take to the fair.",
+      "length": 4,
+      "words": [
+        "gave",
+        "Pete",
+        "take",
+        "fair"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "82": {
+      "input": "That the Cardinal won the game gave Sandy a thrill.",
+      "output": "that game gave",
+      "sentence": "That the Cardinal won the game gave Sandy a thrill.",
+      "length": 4,
+      "words": [
+        "That",
+        "game",
+        "gave"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "83": {
+      "input": "The police sprayed water on the protesters.",
+      "output": "police",
+      "sentence": "The police sprayed water on the protesters.",
+      "length": 6,
+      "words": [
+        "police"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "84": {
+      "input": "John was spoken to by Mary.",
+      "output": "was",
+      "sentence": "John was spoken to by Mary.",
+      "length": 3,
+      "words": [
+        "was"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "85": {
+      "input": "They make good cooks.",
+      "output": "cooks",
+      "sentence": "They make good cooks.",
+      "length": 5,
+      "words": [
+        "cooks"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "86": {
+      "input": "John thinks it would upset himself to die.",
+      "output": "thinks",
+      "sentence": "John thinks it would upset himself to die.",
+      "length": 6,
+      "words": [
+        "thinks"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "87": {
+      "input": "It was believed by the students that they would have an exam.",
+      "output": "that they have exam",
+      "sentence": "It was believed by the students that they would have an exam.",
+      "length": 4,
+      "words": [
+        "that",
+        "they",
+        "have",
+        "exam"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "88": {
+      "input": "There was a felon elected to the city council.",
+      "output": "city",
+      "sentence": "There was a felon elected to the city council.",
+      "length": 4,
+      "words": [
+        "city"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "89": {
+      "input": "Of whom are you thinking?",
+      "output": "are you",
+      "sentence": "Of whom are you thinking?",
+      "length": 3,
+      "words": [
+        "are",
+        "you"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "90": {
+      "input": "Sandy was trying to work out which students would be able to solve a certain problem.",
+      "output": "trying",
+      "sentence": "Sandy was trying to work out which students would be able to solve a certain problem.",
+      "length": 6,
+      "words": [
+        "trying"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "91": {
+      "input": "These stockings will run.",
+      "output": "run",
+      "sentence": "These stockings will run.",
+      "length": 3,
+      "words": [
+        "run"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "92": {
+      "input": "Nobody saw Pat.",
+      "output": "nobody",
+      "sentence": "Nobody saw Pat.",
+      "length": 6,
+      "words": [
+        "Nobody"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "93": {
+      "input": "Mary was respected by John.",
+      "output": "mary john",
+      "sentence": "Mary was respected by John.",
+      "length": 4,
+      "words": [
+        "Mary",
+        "John"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "94": {
+      "input": "That he is here is clear.",
+      "output": "clear",
+      "sentence": "That he is here is clear.",
+      "length": 5,
+      "words": [
+        "clear"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "95": {
+      "input": "List associates of each defendant who speaks Spanish.",
+      "output": "list each",
+      "sentence": "List associates of each defendant who speaks Spanish.",
+      "length": 4,
+      "words": [
+        "List",
+        "each"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "96": {
+      "input": "The horse that was raced past the barn fell.",
+      "output": "that past barn fell",
+      "sentence": "The horse that was raced past the barn fell.",
+      "length": 4,
+      "words": [
+        "that",
+        "past",
+        "barn",
+        "fell"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "97": {
+      "input": "They should pen the letter quickly.",
+      "output": "should letter",
+      "sentence": "They should pen the letter quickly.",
+      "length": 6,
+      "words": [
+        "should",
+        "letter"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "98": {
+      "input": "It would prove our theory to be untenable for carrots to be vegetables.",
+      "output": "our for",
+      "sentence": "It would prove our theory to be untenable for carrots to be vegetables.",
+      "length": 3,
+      "words": [
+        "our",
+        "for"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "99": {
+      "input": "I threw away a book that Sandy thought we had read.",
+      "output": "had",
+      "sentence": "I threw away a book that Sandy thought we had read.",
+      "length": 3,
+      "words": [
+        "had"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "100": {
+      "input": "I met the person who left.",
+      "output": "left",
+      "sentence": "I met the person who left.",
+      "length": 4,
+      "words": [
+        "left"
+      ],
+      "source": "dev_out_of_domain"
+    }
+  }
+}

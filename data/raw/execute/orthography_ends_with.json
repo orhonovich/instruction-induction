@@ -1,0 +1,1035 @@
+{
+  "metadata": {
+    "num_examples": 100
+  },
+  "examples": {
+    "1": {
+      "input": "I might be not going to the party but washing my hair [g]",
+      "output": "going washing",
+      "sentence": "I might be not going to the party but washing my hair",
+      "letter": "g",
+      "words": [
+        "going",
+        "washing"
+      ],
+      "source": "dev_in_domain"
+    },
+    "2": {
+      "input": "I met the man who grows peaches. [o]",
+      "output": "who",
+      "sentence": "I met the man who grows peaches.",
+      "letter": "o",
+      "words": [
+        "who"
+      ],
+      "source": "dev_in_domain"
+    },
+    "3": {
+      "input": "Mike talked about politics yesterday to my friends. [t]",
+      "output": "about",
+      "sentence": "Mike talked about politics yesterday to my friends.",
+      "letter": "t",
+      "words": [
+        "about"
+      ],
+      "source": "dev_in_domain"
+    },
+    "4": {
+      "input": "If you had eaten more, you would want less. [s]",
+      "output": "less",
+      "sentence": "If you had eaten more, you would want less.",
+      "letter": "s",
+      "words": [
+        "less"
+      ],
+      "source": "dev_in_domain"
+    },
+    "5": {
+      "input": "What did Bill buy? [y]",
+      "output": "buy",
+      "sentence": "What did Bill buy?",
+      "letter": "y",
+      "words": [
+        "buy"
+      ],
+      "source": "dev_in_domain"
+    },
+    "6": {
+      "input": "I shaved myself. [f]",
+      "output": "myself",
+      "sentence": "I shaved myself.",
+      "letter": "f",
+      "words": [
+        "myself"
+      ],
+      "source": "dev_in_domain"
+    },
+    "7": {
+      "input": "Any pilot on duty today could be flying this plane. [y]",
+      "output": "any duty today",
+      "sentence": "Any pilot on duty today could be flying this plane.",
+      "letter": "y",
+      "words": [
+        "Any",
+        "duty",
+        "today"
+      ],
+      "source": "dev_in_domain"
+    },
+    "8": {
+      "input": "You will believe Bob. [l]",
+      "output": "will",
+      "sentence": "You will believe Bob.",
+      "letter": "l",
+      "words": [
+        "will"
+      ],
+      "source": "dev_in_domain"
+    },
+    "9": {
+      "input": "I want to try and buy some whiskey. [o]",
+      "output": "to",
+      "sentence": "I want to try and buy some whiskey.",
+      "letter": "o",
+      "words": [
+        "to"
+      ],
+      "source": "dev_in_domain"
+    },
+    "10": {
+      "input": "I will fix the computer for Carol. [e]",
+      "output": "the",
+      "sentence": "I will fix the computer for Carol.",
+      "letter": "e",
+      "words": [
+        "the"
+      ],
+      "source": "dev_in_domain"
+    },
+    "11": {
+      "input": "We elected me. [d]",
+      "output": "elected",
+      "sentence": "We elected me.",
+      "letter": "d",
+      "words": [
+        "elected"
+      ],
+      "source": "dev_in_domain"
+    },
+    "12": {
+      "input": "Muriel said nothing else than that she had been insulted. [d]",
+      "output": "said had insulted",
+      "sentence": "Muriel said nothing else than that she had been insulted.",
+      "letter": "d",
+      "words": [
+        "said",
+        "had",
+        "insulted"
+      ],
+      "source": "dev_in_domain"
+    },
+    "13": {
+      "input": "The elixir was hidden in a hole in the ground [r]",
+      "output": "elixir",
+      "sentence": "The elixir was hidden in a hole in the ground",
+      "letter": "r",
+      "words": [
+        "elixir"
+      ],
+      "source": "dev_in_domain"
+    },
+    "14": {
+      "input": "The rules require that the executives be polite. [s]",
+      "output": "rules executives",
+      "sentence": "The rules require that the executives be polite.",
+      "letter": "s",
+      "words": [
+        "rules",
+        "executives"
+      ],
+      "source": "dev_in_domain"
+    },
+    "15": {
+      "input": "Brown presented a plaque to Jones. [a]",
+      "output": "a",
+      "sentence": "Brown presented a plaque to Jones.",
+      "letter": "a",
+      "words": [
+        "a"
+      ],
+      "source": "dev_in_domain"
+    },
+    "16": {
+      "input": "The more Fred is obnoxious, the less attention you should pay to him. [u]",
+      "output": "you",
+      "sentence": "The more Fred is obnoxious, the less attention you should pay to him.",
+      "letter": "u",
+      "words": [
+        "you"
+      ],
+      "source": "dev_in_domain"
+    },
+    "17": {
+      "input": "He could not have been working. [n]",
+      "output": "been",
+      "sentence": "He could not have been working.",
+      "letter": "n",
+      "words": [
+        "been"
+      ],
+      "source": "dev_in_domain"
+    },
+    "18": {
+      "input": "It is some disgruntled old pigs in those ditches that humans love to eat. [n]",
+      "output": "in",
+      "sentence": "It is some disgruntled old pigs in those ditches that humans love to eat.",
+      "letter": "n",
+      "words": [
+        "in"
+      ],
+      "source": "dev_in_domain"
+    },
+    "19": {
+      "input": "The more Fred is obnoxious, the less attention you should pay to him. [n]",
+      "output": "attention",
+      "sentence": "The more Fred is obnoxious, the less attention you should pay to him.",
+      "letter": "n",
+      "words": [
+        "attention"
+      ],
+      "source": "dev_in_domain"
+    },
+    "20": {
+      "input": "John put the book in the box. [x]",
+      "output": "box",
+      "sentence": "John put the book in the box.",
+      "letter": "x",
+      "words": [
+        "box"
+      ],
+      "source": "dev_in_domain"
+    },
+    "21": {
+      "input": "The fugitive lay motionless in order to avoid discovery. [n]",
+      "output": "in",
+      "sentence": "The fugitive lay motionless in order to avoid discovery.",
+      "letter": "n",
+      "words": [
+        "in"
+      ],
+      "source": "dev_in_domain"
+    },
+    "22": {
+      "input": "Magnus went to Ireland. [o]",
+      "output": "to",
+      "sentence": "Magnus went to Ireland.",
+      "letter": "o",
+      "words": [
+        "to"
+      ],
+      "source": "dev_in_domain"
+    },
+    "23": {
+      "input": "Drew believes I think Rosie loves magazine ads. [e]",
+      "output": "rosie magazine",
+      "sentence": "Drew believes I think Rosie loves magazine ads.",
+      "letter": "e",
+      "words": [
+        "Rosie",
+        "magazine"
+      ],
+      "source": "dev_in_domain"
+    },
+    "24": {
+      "input": "They realised that never had Sir Thomas been so offended. [y]",
+      "output": "they",
+      "sentence": "They realised that never had Sir Thomas been so offended.",
+      "letter": "y",
+      "words": [
+        "They"
+      ],
+      "source": "dev_in_domain"
+    },
+    "25": {
+      "input": "That kind of person is hard to find anyone to look after. [e]",
+      "output": "anyone",
+      "sentence": "That kind of person is hard to find anyone to look after.",
+      "letter": "e",
+      "words": [
+        "anyone"
+      ],
+      "source": "dev_in_domain"
+    },
+    "26": {
+      "input": "Poor Bill, it had started to rain and he had no umbrella. [r]",
+      "output": "poor",
+      "sentence": "Poor Bill, it had started to rain and he had no umbrella.",
+      "letter": "r",
+      "words": [
+        "Poor"
+      ],
+      "source": "dev_in_domain"
+    },
+    "27": {
+      "input": "Mary saw the boy walking toward the railroad station. [d]",
+      "output": "toward railroad",
+      "sentence": "Mary saw the boy walking toward the railroad station.",
+      "letter": "d",
+      "words": [
+        "toward",
+        "railroad"
+      ],
+      "source": "dev_in_domain"
+    },
+    "28": {
+      "input": "Martha carved the baby a toy out of wood. [e]",
+      "output": "the",
+      "sentence": "Martha carved the baby a toy out of wood.",
+      "letter": "e",
+      "words": [
+        "the"
+      ],
+      "source": "dev_in_domain"
+    },
+    "29": {
+      "input": "John finished the cake and drank the lemonade. [d]",
+      "output": "finished and",
+      "sentence": "John finished the cake and drank the lemonade.",
+      "letter": "d",
+      "words": [
+        "finished",
+        "and"
+      ],
+      "source": "dev_in_domain"
+    },
+    "30": {
+      "input": "Who is she trying to make up to now? [w]",
+      "output": "now",
+      "sentence": "Who is she trying to make up to now?",
+      "letter": "w",
+      "words": [
+        "now"
+      ],
+      "source": "dev_in_domain"
+    },
+    "31": {
+      "input": "The higher the stakes, the lower his expectations are. [s]",
+      "output": "stakes his expectations",
+      "sentence": "The higher the stakes, the lower his expectations are.",
+      "letter": "s",
+      "words": [
+        "stakes",
+        "his",
+        "expectations"
+      ],
+      "source": "dev_in_domain"
+    },
+    "32": {
+      "input": "John has a fear of dogs. [n]",
+      "output": "john",
+      "sentence": "John has a fear of dogs.",
+      "letter": "n",
+      "words": [
+        "John"
+      ],
+      "source": "dev_in_domain"
+    },
+    "33": {
+      "input": "Dave, Dan, Erin, Jaime, and Alina left. [a]",
+      "output": "alina",
+      "sentence": "Dave, Dan, Erin, Jaime, and Alina left.",
+      "letter": "a",
+      "words": [
+        "Alina"
+      ],
+      "source": "dev_in_domain"
+    },
+    "34": {
+      "input": "Linda taped the picture onto the wall. [a]",
+      "output": "linda",
+      "sentence": "Linda taped the picture onto the wall.",
+      "letter": "a",
+      "words": [
+        "Linda"
+      ],
+      "source": "dev_in_domain"
+    },
+    "35": {
+      "input": "The men will all leave. [e]",
+      "output": "the leave",
+      "sentence": "The men will all leave.",
+      "letter": "e",
+      "words": [
+        "The",
+        "leave"
+      ],
+      "source": "dev_in_domain"
+    },
+    "36": {
+      "input": "They knew that pictures of each other would be on sale. [n]",
+      "output": "on",
+      "sentence": "They knew that pictures of each other would be on sale.",
+      "letter": "n",
+      "words": [
+        "on"
+      ],
+      "source": "dev_in_domain"
+    },
+    "37": {
+      "input": "I ate a salad that was filled with lima beans. [h]",
+      "output": "with",
+      "sentence": "I ate a salad that was filled with lima beans.",
+      "letter": "h",
+      "words": [
+        "with"
+      ],
+      "source": "dev_in_domain"
+    },
+    "38": {
+      "input": "That kind of person is hard to find anyone to look after. [s]",
+      "output": "is",
+      "sentence": "That kind of person is hard to find anyone to look after.",
+      "letter": "s",
+      "words": [
+        "is"
+      ],
+      "source": "dev_in_domain"
+    },
+    "39": {
+      "input": "It is nice to go abroad. [o]",
+      "output": "to go",
+      "sentence": "It is nice to go abroad.",
+      "letter": "o",
+      "words": [
+        "to",
+        "go"
+      ],
+      "source": "dev_in_domain"
+    },
+    "40": {
+      "input": "a tall building. [g]",
+      "output": "building",
+      "sentence": "a tall building.",
+      "letter": "g",
+      "words": [
+        "building"
+      ],
+      "source": "dev_in_domain"
+    },
+    "41": {
+      "input": "Kim gave a dollar to Bobbie and a dime to Jean. [r]",
+      "output": "dollar",
+      "sentence": "Kim gave a dollar to Bobbie and a dime to Jean.",
+      "letter": "r",
+      "words": [
+        "dollar"
+      ],
+      "source": "dev_in_domain"
+    },
+    "42": {
+      "input": "What did Bill buy? [d]",
+      "output": "did",
+      "sentence": "What did Bill buy?",
+      "letter": "d",
+      "words": [
+        "did"
+      ],
+      "source": "dev_in_domain"
+    },
+    "43": {
+      "input": "An evil thought struck Dave. [k]",
+      "output": "struck",
+      "sentence": "An evil thought struck Dave.",
+      "letter": "k",
+      "words": [
+        "struck"
+      ],
+      "source": "dev_in_domain"
+    },
+    "44": {
+      "input": "You must pick any flower you see. [y]",
+      "output": "any",
+      "sentence": "You must pick any flower you see.",
+      "letter": "y",
+      "words": [
+        "any"
+      ],
+      "source": "dev_in_domain"
+    },
+    "45": {
+      "input": "John tried to be a good boy. [e]",
+      "output": "be",
+      "sentence": "John tried to be a good boy.",
+      "letter": "e",
+      "words": [
+        "be"
+      ],
+      "source": "dev_in_domain"
+    },
+    "46": {
+      "input": "Cynthia nibbled on the carrot . [n]",
+      "output": "on",
+      "sentence": "Cynthia nibbled on the carrot .",
+      "letter": "n",
+      "words": [
+        "on"
+      ],
+      "source": "dev_in_domain"
+    },
+    "47": {
+      "input": "The children admire their mother. [e]",
+      "output": "the admire",
+      "sentence": "The children admire their mother.",
+      "letter": "e",
+      "words": [
+        "The",
+        "admire"
+      ],
+      "source": "dev_in_domain"
+    },
+    "48": {
+      "input": "Clearly, John probably will immediately learn French perfectly. [l]",
+      "output": "will",
+      "sentence": "Clearly, John probably will immediately learn French perfectly.",
+      "letter": "l",
+      "words": [
+        "will"
+      ],
+      "source": "dev_in_domain"
+    },
+    "49": {
+      "input": "The window was broken with a hammer. [h]",
+      "output": "with",
+      "sentence": "The window was broken with a hammer.",
+      "letter": "h",
+      "words": [
+        "with"
+      ],
+      "source": "dev_in_domain"
+    },
+    "50": {
+      "input": "I saw that gas can explode. [e]",
+      "output": "explode",
+      "sentence": "I saw that gas can explode.",
+      "letter": "e",
+      "words": [
+        "explode"
+      ],
+      "source": "dev_in_domain"
+    },
+    "51": {
+      "input": "The dogs barked. [s]",
+      "output": "dogs",
+      "sentence": "The dogs barked.",
+      "letter": "s",
+      "words": [
+        "dogs"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "52": {
+      "input": "Books were taken from no student and given to Mary. [t]",
+      "output": "student",
+      "sentence": "Books were taken from no student and given to Mary.",
+      "letter": "t",
+      "words": [
+        "student"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "53": {
+      "input": "John said Joan saw someone from her graduating class. [m]",
+      "output": "from",
+      "sentence": "John said Joan saw someone from her graduating class.",
+      "letter": "m",
+      "words": [
+        "from"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "54": {
+      "input": "John was believed by Mary to be telling the truth. [e]",
+      "output": "be the",
+      "sentence": "John was believed by Mary to be telling the truth.",
+      "letter": "e",
+      "words": [
+        "be",
+        "the"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "55": {
+      "input": "Advantage is taken of every opportunity for improvement. [y]",
+      "output": "every opportunity",
+      "sentence": "Advantage is taken of every opportunity for improvement.",
+      "letter": "y",
+      "words": [
+        "every",
+        "opportunity"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "56": {
+      "input": "Which book did each author recommend? [d]",
+      "output": "did recommend",
+      "sentence": "Which book did each author recommend?",
+      "letter": "d",
+      "words": [
+        "did",
+        "recommend"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "57": {
+      "input": "That he is here is clear. [r]",
+      "output": "clear",
+      "sentence": "That he is here is clear.",
+      "letter": "r",
+      "words": [
+        "clear"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "58": {
+      "input": "It was to John that I gave the book. [s]",
+      "output": "was",
+      "sentence": "It was to John that I gave the book.",
+      "letter": "s",
+      "words": [
+        "was"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "59": {
+      "input": "The table was wiped clean by John. [d]",
+      "output": "wiped",
+      "sentence": "The table was wiped clean by John.",
+      "letter": "d",
+      "words": [
+        "wiped"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "60": {
+      "input": "It was believed by the students that they would have an exam. [n]",
+      "output": "an",
+      "sentence": "It was believed by the students that they would have an exam.",
+      "letter": "n",
+      "words": [
+        "an"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "61": {
+      "input": "Some people consider the dogs in my neighborhood dangerous. [e]",
+      "output": "some people the",
+      "sentence": "Some people consider the dogs in my neighborhood dangerous.",
+      "letter": "e",
+      "words": [
+        "Some",
+        "people",
+        "the"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "62": {
+      "input": "The only person that I like whose kids Dana is willing to put up with is Pat. [t]",
+      "output": "that put pat",
+      "sentence": "The only person that I like whose kids Dana is willing to put up with is Pat.",
+      "letter": "t",
+      "words": [
+        "that",
+        "put",
+        "Pat"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "63": {
+      "input": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one. [h]",
+      "output": "which",
+      "sentence": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",
+      "letter": "h",
+      "words": [
+        "which"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "64": {
+      "input": "Everybody gets on well with a certain relative, but often only his therapist knows which one. [a]",
+      "output": "a",
+      "sentence": "Everybody gets on well with a certain relative, but often only his therapist knows which one.",
+      "letter": "a",
+      "words": [
+        "a"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "65": {
+      "input": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one. [d]",
+      "output": "and",
+      "sentence": "Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",
+      "letter": "d",
+      "words": [
+        "and"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "66": {
+      "input": "Some people yell at the dogs. [e]",
+      "output": "some people the",
+      "sentence": "Some people yell at the dogs.",
+      "letter": "e",
+      "words": [
+        "Some",
+        "people",
+        "the"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "67": {
+      "input": "I bought Bill a book to read. [k]",
+      "output": "book",
+      "sentence": "I bought Bill a book to read.",
+      "letter": "k",
+      "words": [
+        "book"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "68": {
+      "input": "I am counting on Bill to incriminate himself. [l]",
+      "output": "bill",
+      "sentence": "I am counting on Bill to incriminate himself.",
+      "letter": "l",
+      "words": [
+        "Bill"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "69": {
+      "input": "Kris donated a book to the library. [y]",
+      "output": "library",
+      "sentence": "Kris donated a book to the library.",
+      "letter": "y",
+      "words": [
+        "library"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "70": {
+      "input": "They make good cooks. [y]",
+      "output": "they",
+      "sentence": "They make good cooks.",
+      "letter": "y",
+      "words": [
+        "They"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "71": {
+      "input": "Susan devoted herself to linguistics. [o]",
+      "output": "to",
+      "sentence": "Susan devoted herself to linguistics.",
+      "letter": "o",
+      "words": [
+        "to"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "72": {
+      "input": "Harry told Sue that Albania is a lovely place for a vacation, and Tom. [n]",
+      "output": "vacation",
+      "sentence": "Harry told Sue that Albania is a lovely place for a vacation, and Tom.",
+      "letter": "n",
+      "words": [
+        "vacation"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "73": {
+      "input": "John was believed by Mary to be telling the truth. [g]",
+      "output": "telling",
+      "sentence": "John was believed by Mary to be telling the truth.",
+      "letter": "g",
+      "words": [
+        "telling"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "74": {
+      "input": "I know the person whose mother died. [r]",
+      "output": "mother",
+      "sentence": "I know the person whose mother died.",
+      "letter": "r",
+      "words": [
+        "mother"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "75": {
+      "input": "John made Bill master of himself. [l]",
+      "output": "bill",
+      "sentence": "John made Bill master of himself.",
+      "letter": "l",
+      "words": [
+        "Bill"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "76": {
+      "input": "Books were taken from no student and given to Mary. [e]",
+      "output": "were",
+      "sentence": "Books were taken from no student and given to Mary.",
+      "letter": "e",
+      "words": [
+        "were"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "77": {
+      "input": "I served my guests. [s]",
+      "output": "guests",
+      "sentence": "I served my guests.",
+      "letter": "s",
+      "words": [
+        "guests"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "78": {
+      "input": "Lou forgot the umbrella in the closet. [a]",
+      "output": "umbrella",
+      "sentence": "Lou forgot the umbrella in the closet.",
+      "letter": "a",
+      "words": [
+        "umbrella"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "79": {
+      "input": "The police sprayed water on the protesters. [d]",
+      "output": "sprayed",
+      "sentence": "The police sprayed water on the protesters.",
+      "letter": "d",
+      "words": [
+        "sprayed"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "80": {
+      "input": "Who who you like does Sandy also like? [y]",
+      "output": "sandy",
+      "sentence": "Who who you like does Sandy also like?",
+      "letter": "y",
+      "words": [
+        "Sandy"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "81": {
+      "input": "It was believed by everybody that Mary was a thief. [d]",
+      "output": "believed",
+      "sentence": "It was believed by everybody that Mary was a thief.",
+      "letter": "d",
+      "words": [
+        "believed"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "82": {
+      "input": "John left us orders to follow Pete. [t]",
+      "output": "left",
+      "sentence": "John left us orders to follow Pete.",
+      "letter": "t",
+      "words": [
+        "left"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "83": {
+      "input": "A felon was elected to the city council. [n]",
+      "output": "felon",
+      "sentence": "A felon was elected to the city council.",
+      "letter": "n",
+      "words": [
+        "felon"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "84": {
+      "input": "Nobody told Susan about herself. [t]",
+      "output": "about",
+      "sentence": "Nobody told Susan about herself.",
+      "letter": "t",
+      "words": [
+        "about"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "85": {
+      "input": "That professor is feared by all students. [t]",
+      "output": "that",
+      "sentence": "That professor is feared by all students.",
+      "letter": "t",
+      "words": [
+        "That"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "86": {
+      "input": "John is sick. [n]",
+      "output": "john",
+      "sentence": "John is sick.",
+      "letter": "n",
+      "words": [
+        "John"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "87": {
+      "input": "It bothers me that he is here. [s]",
+      "output": "bothers is",
+      "sentence": "It bothers me that he is here.",
+      "letter": "s",
+      "words": [
+        "bothers",
+        "is"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "88": {
+      "input": "John was believed to be telling the truth by Mary. [s]",
+      "output": "was",
+      "sentence": "John was believed to be telling the truth by Mary.",
+      "letter": "s",
+      "words": [
+        "was"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "89": {
+      "input": "Chris was handed a note. [e]",
+      "output": "note",
+      "sentence": "Chris was handed a note.",
+      "letter": "e",
+      "words": [
+        "note"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "90": {
+      "input": "Tabs are kept on suspected drug dealers by the FBI. [y]",
+      "output": "by",
+      "sentence": "Tabs are kept on suspected drug dealers by the FBI.",
+      "letter": "y",
+      "words": [
+        "by"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "91": {
+      "input": "Sandy was trying to work out which students would be able to solve a certain problem. [d]",
+      "output": "would",
+      "sentence": "Sandy was trying to work out which students would be able to solve a certain problem.",
+      "letter": "d",
+      "words": [
+        "would"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "92": {
+      "input": "Our friends like us. [s]",
+      "output": "friends us",
+      "sentence": "Our friends like us.",
+      "letter": "s",
+      "words": [
+        "friends",
+        "us"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "93": {
+      "input": "That the Cardinal won the game gave Sandy a thrill. [l]",
+      "output": "cardinal thrill",
+      "sentence": "That the Cardinal won the game gave Sandy a thrill.",
+      "letter": "l",
+      "words": [
+        "Cardinal",
+        "thrill"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "94": {
+      "input": "The administration has issued a statement that it is willing to meet a student group. [s]",
+      "output": "has is",
+      "sentence": "The administration has issued a statement that it is willing to meet a student group.",
+      "letter": "s",
+      "words": [
+        "has",
+        "is"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "95": {
+      "input": "John counted on Bill to get there on time. [e]",
+      "output": "there time",
+      "sentence": "John counted on Bill to get there on time.",
+      "letter": "e",
+      "words": [
+        "there",
+        "time"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "96": {
+      "input": "Visiting relatives can be boring. [s]",
+      "output": "relatives",
+      "sentence": "Visiting relatives can be boring.",
+      "letter": "s",
+      "words": [
+        "relatives"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "97": {
+      "input": "Kris donated a book to the library. [a]",
+      "output": "a",
+      "sentence": "Kris donated a book to the library.",
+      "letter": "a",
+      "words": [
+        "a"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "98": {
+      "input": "Some people consider the dogs in my neighborhood dangerous. [n]",
+      "output": "in",
+      "sentence": "Some people consider the dogs in my neighborhood dangerous.",
+      "letter": "n",
+      "words": [
+        "in"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "99": {
+      "input": "We gave ourselves to the cause. [s]",
+      "output": "ourselves",
+      "sentence": "We gave ourselves to the cause.",
+      "letter": "s",
+      "words": [
+        "ourselves"
+      ],
+      "source": "dev_out_of_domain"
+    },
+    "100": {
+      "input": "Who who you like does Sandy also like? [u]",
+      "output": "you",
+      "sentence": "Who who you like does Sandy also like?",
+      "letter": "u",
+      "words": [
+        "you"
+      ],
+      "source": "dev_out_of_domain"
+    }
+  }
+}

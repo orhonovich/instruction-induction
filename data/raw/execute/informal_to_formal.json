@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "num_examples": 15
+  },
+  "examples": {
+    "1": {
+      "informal": "What's up?",
+      "formal": "How are you doing?"
+    },
+    "2": {
+      "informal": "It was nice to meet you.",
+      "formal": "It was a pleasure to meet you."
+    },
+    "3": {
+      "informal": "As soon as you can.",
+      "formal": "At your earliest convenience."
+    },
+    "4": {
+      "informal": "She can do this.",
+      "formal": "She has the ability to do this."
+    },
+    "5": {
+      "informal": "How about a different approach?",
+      "formal": "Might I suggest a different approach?"
+    },
+    "6": {
+      "informal": "He read tons of papers on the subject. ",
+      "formal": "He read numerous papers on the subject. "
+    },
+    "7": {
+      "informal": "This gameplay slaps.",
+      "formal": "This gameplay is well designed."
+    },
+    "8": {
+      "informal": "She wants to help him.",
+      "formal": "She would like to assist him."
+    },
+    "9": {
+      "informal": "Would you like a drink?",
+      "formal": "May I offer you a beverage?"
+    },
+    "10": {
+      "informal": "Tell Jane I said hello.",
+      "formal": "Send Jane my regards."
+    },
+    "11": {
+      "informal": "The company will change its policy.",
+      "formal": "The company will revise its policy."
+    },
+    "12": {
+      "informal": "The gas prices went up.",
+      "formal": "The gas prices increased."
+    },
+    "13": {
+      "informal": "I can't make it.",
+      "formal": "I am afraid I will not be able to attend."
+    },
+    "14": {
+      "informal": "Sorry I messed up.",
+      "formal": "I apologise for my wrongdoings."
+    },
+    "15": {
+      "informal": "I'm sorry to tell you that your application was rejected.",
+      "formal": "I regret to inform you that your application had been declined."
+    }
+  }
+}

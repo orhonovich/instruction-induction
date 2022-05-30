@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "num_examples": 15
+  },
+  "examples": {
+    "1": {
+      "informal": "I think that this is interesting.",
+      "formal": "It is my opinion that this is interesting."
+    },
+    "2": {
+      "informal": "Please call once you get there.",
+      "formal": "Please call upon your arrival."
+    },
+    "3": {
+      "informal": "The lawyer I met yesterday was helpful. ",
+      "formal": "The lawyer whom I met yesterday was helpful."
+    },
+    "4": {
+      "informal": "I considered many approaches.",
+      "formal": "Various approaches were considered."
+    },
+    "5": {
+      "informal": "I can't stand his temper.",
+      "formal": "I cannot tolerate his temper."
+    },
+    "6": {
+      "informal": "She looks like her sister.",
+      "formal": "She resembles her sister."
+    },
+    "7": {
+      "informal": "Can you do all these tasks?",
+      "formal": "Would you be able to accomplish all these tasks?"
+    },
+    "8": {
+      "informal": "This song is fire.",
+      "formal": "This song is incredibly good."
+    },
+    "9": {
+      "informal": "Do you want me to go with you?",
+      "formal": "Shall I accompany you?"
+    },
+    "10": {
+      "informal": "I can't tell the difference between these two.",
+      "formal": "I find it hard to distinguish between them."
+    },
+    "11": {
+      "informal": "I got what you said.",
+      "formal": "I understood you."
+    },
+    "12": {
+      "informal": "Thanks for your help.",
+      "formal": "Your assistance is much appreciated."
+    },
+    "13": {
+      "informal": "We don't think it's a good idea to do anything right now.",
+      "formal": "It is suggested that no action should be taken at this stage."
+    },
+    "14": {
+      "informal": "The whole story was made up.",
+      "formal": "The entire story was fabricated."
+    },
+    "15": {
+      "informal": "See you tonight.",
+      "formal": "I look forward to meeting you tonight."
+    }
+  }
+}
