@@ -4,64 +4,64 @@
   },
   "examples": {
     "1": {
-      "informal": "I think that this is interesting.",
-      "formal": "It is my opinion that this is interesting."
+      "input": "I think that this is interesting.",
+      "output": "It is my opinion that this is interesting."
     },
     "2": {
-      "informal": "Please call once you get there.",
-      "formal": "Please call upon your arrival."
+      "input": "Please call once you get there.",
+      "output": "Please call upon your arrival."
     },
     "3": {
-      "informal": "The lawyer I met yesterday was helpful. ",
-      "formal": "The lawyer whom I met yesterday was helpful."
+      "input": "The lawyer I met yesterday was helpful. ",
+      "output": "The lawyer whom I met yesterday was helpful."
     },
     "4": {
-      "informal": "I considered many approaches.",
-      "formal": "Various approaches were considered."
+      "input": "I considered many approaches.",
+      "output": "Various approaches were considered."
     },
     "5": {
-      "informal": "I can't stand his temper.",
-      "formal": "I cannot tolerate his temper."
+      "input": "I can't stand his temper.",
+      "output": "I cannot tolerate his temper."
     },
     "6": {
-      "informal": "She looks like her sister.",
-      "formal": "She resembles her sister."
+      "input": "She looks like her sister.",
+      "output": "She resembles her sister."
     },
     "7": {
-      "informal": "Can you do all these tasks?",
-      "formal": "Would you be able to accomplish all these tasks?"
+      "input": "Can you do all these tasks?",
+      "output": "Would you be able to accomplish all these tasks?"
     },
     "8": {
-      "informal": "This song is fire.",
-      "formal": "This song is incredibly good."
+      "input": "This song is fire.",
+      "output": "This song is incredibly good."
     },
     "9": {
-      "informal": "Do you want me to go with you?",
-      "formal": "Shall I accompany you?"
+      "input": "Do you want me to go with you?",
+      "output": "Shall I accompany you?"
     },
     "10": {
-      "informal": "I can't tell the difference between these two.",
-      "formal": "I find it hard to distinguish between them."
+      "input": "I can't tell the difference between these two.",
+      "output": "I find it hard to distinguish between them."
     },
     "11": {
-      "informal": "I got what you said.",
-      "formal": "I understood you."
+      "input": "I got what you said.",
+      "output": "I understood you."
     },
     "12": {
-      "informal": "Thanks for your help.",
-      "formal": "Your assistance is much appreciated."
+      "input": "Thanks for your help.",
+      "output": "Your assistance is much appreciated."
     },
     "13": {
-      "informal": "We don't think it's a good idea to do anything right now.",
-      "formal": "It is suggested that no action should be taken at this stage."
+      "input": "We don't think it's a good idea to do anything right now.",
+      "output": "It is suggested that no action should be taken at this stage."
     },
     "14": {
-      "informal": "The whole story was made up.",
-      "formal": "The entire story was fabricated."
+      "input": "The whole story was made up.",
+      "output": "The entire story was fabricated."
     },
     "15": {
-      "informal": "See you tonight.",
-      "formal": "I look forward to meeting you tonight."
+      "input": "See you tonight.",
+      "output": "I look forward to meeting you tonight."
     }
   }
 }
