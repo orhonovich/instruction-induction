@@ -7,7 +7,7 @@ The data for the instruction induction experiments, as well as for the execution
 are available in the `data` folder.
 
 ## Code
-Coming soon!
+The code is now available. Instructions for running it will follow soon!
 
 ## Citation
 
