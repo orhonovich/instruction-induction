@@ -117,13 +117,13 @@ if __name__ == '__main__':
     INDUCTION_TASKS_STR = ','.join(INDUCTION_TASKS)
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='text-davinci-002',
-                        help='The OpenAI model that will be used to generate instructions.')
+                        help='The OpenAI model that was used to generate instructions.')
     parser.add_argument('--execute_data_dir', type=str, default='data/raw/execute',
                         help='Path of the raw (without instructions) execution set.')
     parser.add_argument('--predictions_dir', type=str, required=True,
                         help='Path of the predicted instructions to evaluate.')
     parser.add_argument('--out_dir', type=str, default='', required=True,
-                        help='Path for saving the execution experiment predictions.')
+                        help='Path for saving the created execution experiment inputs.')
     parser.add_argument('--tasks', type=str, default=INDUCTION_TASKS_STR, help='Tasks for evaluation.')
     args = parser.parse_args()
 
